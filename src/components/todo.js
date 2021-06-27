@@ -58,7 +58,7 @@ deleteItem = (number) =>{
                <br/> 
                <div className = "temp">
                                
-{item} <a href= "#" onClick = {()=>{this.deleteItem(i)}}><FontAwesome className ="fas fa-times"/> </a>
+{item} <a href= "#test" onClick = {()=>{this.deleteItem(i)}}><FontAwesome className ="fas fa-times"/> </a>
                </div>
                <br/>
            </div>
@@ -83,7 +83,7 @@ deleteItem = (number) =>{
 <input className="inp" type = "text" onChange ={this.inputHandle} value = {this.state.inputVal} placeholder = "Enter things to do"/>
     </div>
     <div>
-        <a className= "aref" onClick = {this.incre} href = "#"><FontAwesome className= "fas fa-plus"/> </a>
+        <a className= "aref" onClick = {this.incre} href = "#ok"><FontAwesome className= "fas fa-plus"/> </a>
         
     </div>
 </div>
